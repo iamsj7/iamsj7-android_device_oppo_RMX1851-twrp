@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_xmsirius.mk
+    $(LOCAL_DIR)/omni_RMX1851.mk

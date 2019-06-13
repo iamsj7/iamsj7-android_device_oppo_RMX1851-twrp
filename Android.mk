@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(xmsirius,$(TARGET_DEVICE)),)
+ifneq ($(RMX1851,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
