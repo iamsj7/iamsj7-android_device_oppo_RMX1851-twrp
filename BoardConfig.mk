@@ -99,3 +99,5 @@ TW_SCREEN_BLANK_ON_BOOT := true
 # log
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
