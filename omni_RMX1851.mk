@@ -24,7 +24,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     sys.usb.controller=a600000.dwc3 \
     persist.sys.usb.config=mtp \
     persist.service.adb.enable=1 \
-    persist.service.debuggable=1
+    persist.service.debuggable=1 \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=0
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1851
